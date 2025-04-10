@@ -1,5 +1,5 @@
 function main() {
-  for (const [a, b] of getData()) if (a || b) console.log(a + b);
+  for (let a of getData()) if (a[0] || a[1]) console.log(a[0] + a[1]);
 }
 main();
 
